@@ -3,7 +3,7 @@ import ReactDom from 'react-dom'
 
 const App = () => {
     return <div>
-        <div>hello react</div>
+        <div>hello react-electron</div>
         <div>test</div>
     </div>
 }
