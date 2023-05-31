@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from 'react'
-import ReactDom from 'react-dom'
+//react入口文件
+import React, {useEffect, useState} from 'react';
+import ReactDom from 'react-dom';
 
 const App = () => {
     return <div>
@@ -7,4 +8,4 @@ const App = () => {
         <div>test</div>
     </div>
 }
-ReactDom.render(<App></App>, document.getElementById('root'))
+ReactDom.render(<App></App>, document.getElementById('root'));

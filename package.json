@@ -9,13 +9,22 @@
     "build:react": "webpack  --config render/config/webpack.prod.js",
     "build:main": "tsc --p tsconfig-main.json",
     "dev:main": "tsc -w --p tsconfig-main.json",
-    "start:electron": "electron ."
+    "start:electron": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "keywords": [],
   "author": "Aries",
   "license": "ISC",
   "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
     "clean-webpack-plugin": "^4.0.0",
+    "electron": "^25.0.0",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-plugin": "^5.5.1",
     "mddir": "^1.1.1",
@@ -31,8 +40,8 @@
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "@types/react-router-dom": "^5.3.3",
-    "electron": "^25.0.0",
     "electron-is-dev": "^2.0.0",
+    "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2"
