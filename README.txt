@@ -48,3 +48,23 @@ npm i electron electron-is-dev
         |-- main						//渲染线程主页面
             |-- index.html				//入口html页面
             |-- index.tsx				//react入口文件
+
+
+#启动项目
+1.npm  install
+
+2.npm run start:react 打开浏览器，查看网址
+
+3.修改主进程 win.loadURL('网址')
+
+4.npm run dev:main
+
+5.npm run start:electron
+
+
+#打包
+1.npm run build:react
+
+2.npm run build:main
+
+3.npm run make
