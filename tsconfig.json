@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+  "compilerOptions": { /*编辑配置*/
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "jsx": "react",                                /* Specify what JSX code is generated. */
     "module": "commonjs",                                /* Specify what module code is generated. */
@@ -15,7 +15,7 @@
     "allowJs": true,
     "moduleResolution": "node"
   },
-  "include": [
+  "include": [         /*指定编译文件*/
     "./render/**/*"
   ]
 }
